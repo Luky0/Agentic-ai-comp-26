@@ -1,0 +1,10 @@
+issues:
+- name: NiceOrDie
+  type: CategoricalIssue
+  values:
+  - '100_16'
+  - '16_100'
+  - '29_29'
+name: NiceOrDie
+path: __PATH__:/Users/yasser/negmas/app/scenarios/anac2011/NiceOrDie/NiceOrDie.yml
+type: DiscreteCartesianOutcomeSpace

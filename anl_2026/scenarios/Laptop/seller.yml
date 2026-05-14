@@ -1,0 +1,30 @@
+discount: 0.42441038
+dynamic_reservation: true
+factor: step
+name: seller
+reserved_value: 0.0
+type: ExpDiscountedUFun
+ufun:
+  name: scenarios/xml/original/anac/y2011/Laptop/seller.xml
+  reserved_value: 0.0
+  type: LinearAdditiveUtilityFunction
+  values:
+  - mapping:
+      Dell: 0.0
+      HP: 0.4444444444444444
+      Macintosh: 1.0
+    type: TableFun
+  - mapping:
+      120 Gb: 0.0
+      60 Gb: 0.5238095238095237
+      80 Gb: 1.0
+    type: TableFun
+  - mapping:
+      19'' LCD: 1.0
+      20'' LCD: 0.5
+      23'' LCD: 0.0
+    type: TableFun
+  weights:
+  - 0.5965641482159444
+  - 0.325381796893556
+  - 0.07805405489049964

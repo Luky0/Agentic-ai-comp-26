@@ -1,0 +1,53 @@
+name: deal2
+reserved_value: 0.0
+type: LinearAdditiveUtilityFunction
+values:
+- mapping:
+    fairly good: 0.85
+    good: 0.0
+    meager: 0.98
+    none: 1.0
+    standard: 0.91
+  type: TableFun
+- mapping:
+    fairly good: 0.8
+    good: 0.0
+    meager: 0.93
+    none: 1.0
+    standard: 0.96
+  type: TableFun
+- mapping:
+    fairly good: 0.8
+    good: 0.0
+    meager: 0.99
+    none: 1.0
+    standard: 0.91
+  type: TableFun
+- mapping:
+    fairly good: 0.8
+    good: 0.0
+    meager: 0.98
+    none: 1.0
+    standard: 0.9
+  type: TableFun
+- mapping:
+    fairly good: 0.8
+    good: 0.0
+    meager: 0.9500000000000001
+    none: 1.0
+    standard: 0.9
+  type: TableFun
+- mapping:
+    fairly good: 0.8
+    good: 0.0
+    meager: 0.9500000000000001
+    none: 1.0
+    standard: 0.9
+  type: TableFun
+weights:
+- 0.36
+- 0.2
+- 0.2
+- 0.2
+- 0.02
+- 0.02

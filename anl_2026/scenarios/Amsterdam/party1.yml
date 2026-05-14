@@ -1,0 +1,47 @@
+name: party1
+reserved_value: 0.0
+type: LinearAdditiveUtilityFunction
+values:
+- mapping:
+    Dancing: 0.3333333333333333
+    Diner: 0.0
+    Museum: 1.0
+    Shopping: 0.3333333333333333
+  type: TableFun
+- mapping:
+    Afternoon: 1.0
+    Evening: 0.0
+    Morning: 0.0
+  type: TableFun
+- mapping:
+    Friday: 0.0
+    Monday: 1.0
+    Saturday: 0.0
+    Sunday: 1.0
+    Thursday: 0.8
+    Tuesday: 0.4
+    Wednesday: 0.6000000000000001
+  type: TableFun
+- mapping:
+    One day: 1.0
+    One night: 0.5
+    One week: 0.0
+  type: TableFun
+- mapping:
+    Car: 0.0
+    Combination: 0.5
+    Public transport: 1.0
+  type: TableFun
+- mapping:
+    Cheese: 0.0
+    None: 0.6666666666666666
+    Tulips: 1.0
+    Waterpipe: 0.0
+  type: TableFun
+weights:
+- 0.20074349442379183
+- 0.16356877323420074
+- 0.241635687732342
+- 0.08921933085501858
+- 0.17100371747211898
+- 0.13382899628252787

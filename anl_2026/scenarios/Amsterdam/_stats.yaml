@@ -1,0 +1,158 @@
+kalai_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+kalai_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+ks_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+ks_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+max_relative_welfare_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+max_relative_welfare_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+max_welfare_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+max_welfare_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+modified_kalai_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+modified_kalai_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+modified_ks_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+modified_ks_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+nash_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+nash_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+opposition: 0.271109427488742
+pareto_outcomes:
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+- - Museum
+  - Afternoon
+  - Sunday
+  - One week
+  - Public transport
+  - Tulips
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Combination
+  - Tulips
+- - Museum
+  - Afternoon
+  - Sunday
+  - One week
+  - Combination
+  - Tulips
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Car
+  - Tulips
+- - Museum
+  - Afternoon
+  - Sunday
+  - One night
+  - Public transport
+  - Tulips
+- - Museum
+  - Afternoon
+  - Sunday
+  - One day
+  - Public transport
+  - Tulips
+- - Shopping
+  - Afternoon
+  - Sunday
+  - One week
+  - Car
+  - Waterpipe
+- - Shopping
+  - Evening
+  - Sunday
+  - One week
+  - Car
+  - Tulips
+- - Shopping
+  - Evening
+  - Sunday
+  - One week
+  - Car
+  - Waterpipe
+pareto_utils:
+- - 0.7769516728624535
+  - 0.845890410958904
+- - 0.9107806691449815
+  - 0.6917808219178081
+- - 0.6914498141263941
+  - 0.8904109589041096
+- - 0.825278810408922
+  - 0.7363013698630136
+- - 0.6059479553903345
+  - 0.9349315068493151
+- - 0.9553903345724908
+  - 0.5821917808219177
+- - 1.0
+  - 0.47260273972602734
+- - 0.47211895910780666
+  - 0.9589041095890412
+- - 0.4423791821561338
+  - 0.976027397260274
+- - 0.30855018587360594
+  - 1.0
+utility_ranges:
+- - 0.0
+  - 1.0
+- - 0.0
+  - 1.0

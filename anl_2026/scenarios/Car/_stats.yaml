@@ -1,0 +1,502 @@
+kalai_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+kalai_utils:
+- - 0.9335000000000002
+  - 0.9316000000000002
+ks_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+ks_utils:
+- - 0.9335000000000002
+  - 0.9316000000000002
+max_relative_welfare_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - fairly good
+max_relative_welfare_utils:
+- - 0.9403000000000001
+  - 0.9296000000000002
+max_welfare_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - fairly good
+max_welfare_utils:
+- - 0.9403000000000001
+  - 0.9296000000000002
+modified_kalai_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+modified_kalai_utils:
+- - 0.9335000000000002
+  - 0.9316000000000002
+modified_ks_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+modified_ks_utils:
+- - 0.9335000000000002
+  - 0.9316000000000002
+nash_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - fairly good
+nash_utils:
+- - 0.9403000000000001
+  - 0.9296000000000002
+opposition: 0.09230520028687417
+pareto_outcomes:
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - fairly good
+- - standard
+  - standard
+  - standard
+  - standard
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - standard
+  - standard
+  - fairly good
+  - fairly good
+- - standard
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+- - standard
+  - standard
+  - meager
+  - meager
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - standard
+  - meager
+  - fairly good
+  - standard
+- - standard
+  - standard
+  - standard
+  - standard
+  - standard
+  - fairly good
+- - meager
+  - standard
+  - meager
+  - meager
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - standard
+  - standard
+  - fairly good
+  - standard
+- - meager
+  - standard
+  - standard
+  - meager
+  - standard
+  - standard
+- - standard
+  - standard
+  - standard
+  - fairly good
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - meager
+  - meager
+  - fairly good
+  - standard
+- - standard
+  - standard
+  - standard
+  - standard
+  - good
+  - fairly good
+- - standard
+  - standard
+  - standard
+  - fairly good
+  - standard
+  - fairly good
+- - meager
+  - standard
+  - meager
+  - meager
+  - standard
+  - standard
+- - fairly good
+  - standard
+  - standard
+  - fairly good
+  - fairly good
+  - fairly good
+- - standard
+  - standard
+  - standard
+  - fairly good
+  - good
+  - fairly good
+- - fairly good
+  - standard
+  - standard
+  - fairly good
+  - fairly good
+  - standard
+- - fairly good
+  - standard
+  - standard
+  - fairly good
+  - good
+  - fairly good
+- - fairly good
+  - standard
+  - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - meager
+  - meager
+  - meager
+  - standard
+- - fairly good
+  - fairly good
+  - standard
+  - fairly good
+  - fairly good
+  - fairly good
+- - fairly good
+  - fairly good
+  - standard
+  - fairly good
+  - good
+  - fairly good
+- - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+- - meager
+  - standard
+  - meager
+  - meager
+  - meager
+  - meager
+- - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+  - good
+- - fairly good
+  - fairly good
+  - fairly good
+  - fairly good
+  - good
+  - good
+- - none
+  - standard
+  - meager
+  - meager
+  - fairly good
+  - fairly good
+- - none
+  - standard
+  - meager
+  - meager
+  - standard
+  - fairly good
+- - none
+  - standard
+  - meager
+  - meager
+  - standard
+  - standard
+- - none
+  - standard
+  - meager
+  - meager
+  - standard
+  - meager
+- - none
+  - standard
+  - meager
+  - meager
+  - meager
+  - meager
+- - meager
+  - none
+  - meager
+  - meager
+  - meager
+  - meager
+- - fairly good
+  - fairly good
+  - fairly good
+  - good
+  - good
+  - good
+- - none
+  - none
+  - meager
+  - meager
+  - fairly good
+  - fairly good
+- - none
+  - none
+  - meager
+  - meager
+  - fairly good
+  - standard
+- - none
+  - none
+  - meager
+  - meager
+  - standard
+  - standard
+- - none
+  - none
+  - meager
+  - meager
+  - meager
+  - standard
+- - none
+  - none
+  - meager
+  - meager
+  - meager
+  - meager
+- - good
+  - fairly good
+  - fairly good
+  - fairly good
+  - good
+  - good
+- - fairly good
+  - fairly good
+  - good
+  - good
+  - good
+  - good
+- - none
+  - none
+  - meager
+  - none
+  - standard
+  - standard
+- - none
+  - none
+  - meager
+  - none
+  - standard
+  - meager
+- - none
+  - none
+  - meager
+  - none
+  - meager
+  - meager
+- - good
+  - fairly good
+  - fairly good
+  - good
+  - good
+  - good
+- - fairly good
+  - good
+  - good
+  - good
+  - good
+  - good
+- - none
+  - none
+  - none
+  - none
+  - standard
+  - meager
+- - none
+  - none
+  - none
+  - none
+  - meager
+  - meager
+- - good
+  - fairly good
+  - good
+  - good
+  - good
+  - good
+- - none
+  - none
+  - none
+  - none
+  - none
+  - meager
+- - none
+  - none
+  - none
+  - none
+  - none
+  - none
+- - good
+  - good
+  - good
+  - good
+  - good
+  - good
+pareto_utils:
+- - 0.9403000000000001
+  - 0.9296000000000002
+- - 0.9131
+  - 0.9548000000000001
+- - 0.9539000000000001
+  - 0.9136000000000002
+- - 0.9267000000000001
+  - 0.9388000000000001
+- - 0.9335000000000002
+  - 0.9316000000000002
+- - 0.9182000000000001
+  - 0.9456
+- - 0.9063000000000001
+  - 0.9568000000000001
+- - 0.9471000000000002
+  - 0.9156000000000002
+- - 0.891
+  - 0.9707999999999999
+- - 0.9199000000000002
+  - 0.9408000000000001
+- - 0.8995
+  - 0.9588000000000001
+- - 0.9641000000000001
+  - 0.8936000000000002
+- - 0.8842000000000001
+  - 0.9727999999999999
+- - 0.9556000000000001
+  - 0.8976000000000002
+- - 0.9573000000000002
+  - 0.8956000000000002
+- - 0.8774
+  - 0.9747999999999999
+- - 0.9737
+  - 0.8720000000000001
+- - 0.9658000000000001
+  - 0.8776000000000002
+- - 0.9669000000000001
+  - 0.8740000000000001
+- - 0.9754
+  - 0.8560000000000001
+- - 0.9788
+  - 0.8500000000000001
+- - 0.8519000000000001
+  - 0.9757999999999999
+- - 0.9833000000000001
+  - 0.8400000000000001
+- - 0.9850000000000001
+  - 0.8240000000000001
+- - 0.9884000000000001
+  - 0.8180000000000002
+- - 0.8264
+  - 0.9767999999999999
+- - 0.9901000000000001
+  - 0.8020000000000002
+- - 0.9918000000000001
+  - 0.7860000000000001
+- - 0.771
+  - 0.978
+- - 0.7642000000000001
+  - 0.98
+- - 0.7574000000000001
+  - 0.982
+- - 0.7319000000000001
+  - 0.983
+- - 0.7064
+  - 0.984
+- - 0.6776000000000001
+  - 0.9847999999999999
+- - 0.9935000000000002
+  - 0.6260000000000001
+- - 0.6222000000000001
+  - 0.986
+- - 0.6154000000000002
+  - 0.988
+- - 0.6086000000000001
+  - 0.99
+- - 0.5831000000000002
+  - 0.991
+- - 0.5576000000000001
+  - 0.992
+- - 0.9950000000000001
+  - 0.4800000000000001
+- - 0.9952000000000002
+  - 0.466
+- - 0.4641000000000001
+  - 0.994
+- - 0.4386000000000001
+  - 0.995
+- - 0.4131
+  - 0.996
+- - 0.9967000000000001
+  - 0.32000000000000006
+- - 0.9968000000000001
+  - 0.306
+- - 0.29750000000000004
+  - 0.997
+- - 0.272
+  - 0.998
+- - 0.9984000000000002
+  - 0.16000000000000003
+- - 0.136
+  - 0.999
+- - 0.0
+  - 1.0
+- - 1.0
+  - 0.0
+utility_ranges:
+- - 0.0
+  - 1.0
+- - 0.0
+  - 1.0

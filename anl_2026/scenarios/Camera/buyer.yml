@@ -1,0 +1,54 @@
+discount: 0.890596104
+dynamic_reservation: true
+factor: step
+name: buyer
+reserved_value: 0.0
+type: ExpDiscountedUFun
+ufun:
+  name: scenarios/xml/original/anac/y2011/Camera/buyer.xml
+  reserved_value: 0.0
+  type: LinearAdditiveUtilityFunction
+  values:
+  - mapping:
+      Canon: 1.0
+      Nikon: 0.9354838709677419
+      Panasonic: 0.06451612903225806
+      Pentax: 0.0
+      Sony: 0.04838709677419355
+    type: TableFun
+  - mapping:
+      APS-C: 0.2857142857142857
+      Full size: 1.0
+      Micro Four Thirds: 0.07142857142857142
+      compact: 0.0
+    type: TableFun
+  - mapping:
+      Entry model: 0.0
+      High end model: 1.0
+      Middle range model: 0.21875
+    type: TableFun
+  - mapping:
+      GITZO: 1.0
+      Induro: 0.0
+      Manfrotto: 0.45
+    type: TableFun
+  - mapping:
+      Artizan and Artist: 0.0
+      Domke: 1.0
+      Lowepro: 0.12307692307692308
+      National Geographic: 0.09230769230769231
+      Tamrac: 0.06153846153846154
+    type: TableFun
+  - mapping:
+      Battery Grip: 1.0
+      Electronic Flash: 0.16279069767441862
+      Memory: 0.023255813953488372
+      Strap: 0.0
+    type: TableFun
+  weights:
+  - 0.3548224204679347
+  - 0.0282780676653762
+  - 0.1400437636761488
+  - 0.16832183134152498
+  - 0.12035010940919037
+  - 0.18818380743982496

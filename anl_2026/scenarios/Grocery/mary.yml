@@ -1,0 +1,49 @@
+discount: 0.805562132
+dynamic_reservation: true
+factor: step
+name: mary
+reserved_value: 0.0
+type: ExpDiscountedUFun
+ufun:
+  name: scenarios/xml/original/anac/y2011/Grocery/mary.xml
+  reserved_value: 0.0
+  type: LinearAdditiveUtilityFunction
+  values:
+  - mapping:
+      Baguette: 1.0
+      Crackers: 0.1111111111111111
+      Croissants: 0.0
+      Plain bread: 0.4444444444444444
+    type: TableFun
+  - mapping:
+      Apples: 0.0
+      Bananas: 0.4444444444444444
+      Cherries: 0.2222222222222222
+      Grapes: 0.2222222222222222
+      Pears: 1.0
+    type: TableFun
+  - mapping:
+      Chocolate bars: 0.0
+      Doughnuts: 0.1111111111111111
+      Nachos: 0.4444444444444444
+      Popcorn: 1.0
+    type: TableFun
+  - mapping:
+      Cheese: 0.0
+      Jam: 0.1111111111111111
+      Peanut butter: 1.0
+      Sandwichspread: 0.4444444444444444
+    type: TableFun
+  - mapping:
+      Beans: 0.0
+      Broccoli: 0.1111111111111111
+      Leek: 0.4444444444444444
+      Potatoes: 0.2222222222222222
+      Spinach: 1.0
+    type: TableFun
+  weights:
+  - 0.30000000000000004
+  - 0.20000000000000004
+  - 0.05000000000000001
+  - 0.15000000000000002
+  - 0.30000000000000004

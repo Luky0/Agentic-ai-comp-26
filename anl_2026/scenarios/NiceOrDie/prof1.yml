@@ -1,0 +1,11 @@
+name: prof1
+reserved_value: 0.0
+type: LinearAdditiveUtilityFunction
+values:
+- mapping:
+    '100_16': 1.0
+    '16_100': 0.0
+    '29_29': 0.1654761904761905
+  type: TableFun
+weights:
+- 1.0

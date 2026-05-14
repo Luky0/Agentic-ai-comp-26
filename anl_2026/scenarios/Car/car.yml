@@ -1,0 +1,52 @@
+issues:
+- name: CD player
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+- name: Extra speakers
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+- name: Airconditioning
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+- name: Tow hedge
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+- name: Tow hedge2
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+- name: Tow hedge3
+  type: CategoricalIssue
+  values:
+  - good
+  - fairly good
+  - standard
+  - meager
+  - none
+name: car
+path: __PATH__:/Users/yasser/negmas/app/scenarios/anac2011/Car/car.yml
+type: DiscreteCartesianOutcomeSpace

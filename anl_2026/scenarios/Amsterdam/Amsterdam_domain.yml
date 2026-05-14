@@ -1,0 +1,46 @@
+issues:
+- name: Venue
+  type: CategoricalIssue
+  values:
+  - Shopping
+  - Museum
+  - Dancing
+  - Diner
+- name: Time of arrival
+  type: CategoricalIssue
+  values:
+  - Morning
+  - Afternoon
+  - Evening
+- name: Day of the week
+  type: CategoricalIssue
+  values:
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+  - Sunday
+- name: Duration
+  type: CategoricalIssue
+  values:
+  - One day
+  - One night
+  - One week
+- name: Transportation
+  type: CategoricalIssue
+  values:
+  - Public transport
+  - Car
+  - Combination
+- name: Souvenirs
+  type: CategoricalIssue
+  values:
+  - None
+  - Tulips
+  - Cheese
+  - Waterpipe
+name: Amsterdam_domain
+path: __PATH__:/Users/yasser/negmas/app/scenarios/anac2011/Amsterdam/Amsterdam_domain.yml
+type: DiscreteCartesianOutcomeSpace

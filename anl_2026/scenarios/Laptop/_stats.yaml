@@ -1,0 +1,77 @@
+kalai_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+kalai_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+ks_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+ks_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+max_relative_welfare_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+max_relative_welfare_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+max_welfare_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+max_welfare_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+modified_kalai_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+modified_kalai_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+modified_ks_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+modified_ks_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+nash_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+nash_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+opposition: 0.2760351491234607
+pareto_outcomes:
+- - Macintosh
+  - 60 Gb
+  - 19'' LCD
+- - Macintosh
+  - 80 Gb
+  - 19'' LCD
+- - HP
+  - 60 Gb
+  - 19'' LCD
+- - HP
+  - 80 Gb
+  - 19'' LCD
+pareto_utils:
+- - 0.7715533992081257
+  - 0.8450562871935448
+- - 0.5775524426410947
+  - 1.0
+- - 0.9999999999999999
+  - 0.5136317604069089
+- - 0.8059990434329688
+  - 0.6685754732133643
+utility_ranges:
+- - 0.0
+  - 0.9999999999999999
+- - 0.0
+  - 1.0

@@ -1,0 +1,41 @@
+issues:
+- name: Bread type
+  type: CategoricalIssue
+  values:
+  - Baguette
+  - Crackers
+  - Croissants
+  - Plain bread
+- name: Fruit
+  type: CategoricalIssue
+  values:
+  - Apples
+  - Bananas
+  - Cherries
+  - Grapes
+  - Pears
+- name: Snacks
+  type: CategoricalIssue
+  values:
+  - Chocolate bars
+  - Doughnuts
+  - Nachos
+  - Popcorn
+- name: Spreads
+  type: CategoricalIssue
+  values:
+  - Cheese
+  - Jam
+  - Peanut butter
+  - Sandwichspread
+- name: Vegetables
+  type: CategoricalIssue
+  values:
+  - Beans
+  - Broccoli
+  - Leek
+  - Potatoes
+  - Spinach
+name: Grocery_domain
+path: __PATH__:/Users/yasser/negmas/app/scenarios/anac2011/Grocery/Grocery_domain.yml
+type: DiscreteCartesianOutcomeSpace

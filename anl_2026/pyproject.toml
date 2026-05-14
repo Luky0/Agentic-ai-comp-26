@@ -1,0 +1,35 @@
+[project]
+name = "anl2026"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "negmas>=0.15.4",
+	# comment the line above and uncomment the line below to use the latest version of negmas from GitHub
+    # "negmas @ git+https://github.com/yasserfarouk/negmas.git@main",
+    "typer>=0.15.0",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["examples", "tests"]
+force-include = {"main.py" = "main.py", "mynegotiator.py" = "mynegotiator.py", "README.md" = "README.md", "scenarios" = "scenarios"}
+
+[project.scripts]
+anl2026 = "main:app"
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.0.0",
+    "pytest>=8.0.0",
+]

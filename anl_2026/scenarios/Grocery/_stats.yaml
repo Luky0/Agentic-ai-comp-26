@@ -1,0 +1,134 @@
+kalai_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+kalai_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+ks_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+ks_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+max_relative_welfare_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Peanut butter
+  - Spinach
+max_relative_welfare_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+- - 0.9555555555555557
+  - 0.7500000000000001
+max_welfare_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Peanut butter
+  - Spinach
+max_welfare_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+- - 0.9555555555555557
+  - 0.7500000000000001
+modified_kalai_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+modified_kalai_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+modified_ks_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+modified_ks_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+nash_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+nash_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+opposition: 0.2126406578778293
+pareto_outcomes:
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Spinach
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Peanut butter
+  - Spinach
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Sandwichspread
+  - Spinach
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Leek
+- - Baguette
+  - Pears
+  - Doughnuts
+  - Jam
+  - Potatoes
+- - Baguette
+  - Pears
+  - Popcorn
+  - Peanut butter
+  - Spinach
+- - Baguette
+  - Apples
+  - Doughnuts
+  - Jam
+  - Potatoes
+pareto_utils:
+- - 0.8222222222222224
+  - 0.8833333333333334
+- - 0.9555555555555557
+  - 0.7500000000000001
+- - 0.8722222222222223
+  - 0.8
+- - 0.6555555555555557
+  - 0.9166666666666667
+- - 0.588888888888889
+  - 0.9722222222222223
+- - 1.0000000000000002
+  - 0.47222222222222227
+- - 0.38888888888888895
+  - 1.0
+utility_ranges:
+- - 0.0
+  - 1.0000000000000002
+- - 0.0
+  - 1.0

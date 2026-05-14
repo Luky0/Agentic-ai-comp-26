@@ -1,0 +1,174 @@
+kalai_outcomes:
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+kalai_utils:
+- - 0.781686584750042
+  - 0.7950512371907025
+ks_outcomes:
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+ks_utils:
+- - 0.781686584750042
+  - 0.7950512371907025
+max_relative_welfare_outcomes:
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+max_relative_welfare_utils:
+- - 0.8643326039387308
+  - 0.7530617345663585
+max_welfare_outcomes:
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+max_welfare_utils:
+- - 0.8643326039387308
+  - 0.7530617345663585
+modified_kalai_outcomes:
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+modified_kalai_utils:
+- - 0.781686584750042
+  - 0.7950512371907025
+modified_ks_outcomes:
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+modified_ks_utils:
+- - 0.781686584750042
+  - 0.7950512371907025
+nash_outcomes:
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+nash_utils:
+- - 0.8643326039387308
+  - 0.7530617345663585
+opposition: 0.2817519286347848
+pareto_outcomes:
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+- - Canon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+- - Nikon
+  - APS-C
+  - High end model
+  - GITZO
+  - Domke
+  - Battery Grip
+- - Canon
+  - APS-C
+  - High end model
+  - GITZO
+  - Domke
+  - Battery Grip
+- - Pentax
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+- - Canon
+  - Full size
+  - High end model
+  - GITZO
+  - Domke
+  - Battery Grip
+- - Nikon
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Electronic Flash
+- - Pentax
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Battery Grip
+- - Sony
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Domke
+  - Battery Grip
+- - Pentax
+  - APS-C
+  - High end model
+  - Manfrotto
+  - Lowepro
+  - Electronic Flash
+pareto_utils:
+- - 0.8643326039387308
+  - 0.7530617345663585
+- - 0.8872243730011782
+  - 0.7270682329417647
+- - 0.7587948156875947
+  - 0.8210447388152963
+- - 0.781686584750042
+  - 0.7950512371907025
+- - 0.9569096111765696
+  - 0.6100974756310923
+- - 0.979801380239017
+  - 0.5841039740064985
+- - 0.5324019525332435
+  - 0.9250187453136717
+- - 1.0
+  - 0.4558860284928768
+- - 0.6012455815519272
+  - 0.8280429892526869
+- - 0.4268641642821074
+  - 0.9930017495626094
+- - 0.5495707793300791
+  - 0.8450387403149213
+- - 0.26931493014644
+  - 1.0
+utility_ranges:
+- - 0.0
+  - 1.0
+- - 0.0
+  - 1.0

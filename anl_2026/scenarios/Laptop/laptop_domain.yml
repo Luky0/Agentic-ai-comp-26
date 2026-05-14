@@ -1,0 +1,22 @@
+issues:
+- name: Laptop
+  type: CategoricalIssue
+  values:
+  - Dell
+  - Macintosh
+  - HP
+- name: Harddisk
+  type: CategoricalIssue
+  values:
+  - 60 Gb
+  - 80 Gb
+  - 120 Gb
+- name: External Monitor
+  type: CategoricalIssue
+  values:
+  - 19'' LCD
+  - 20'' LCD
+  - 23'' LCD
+name: laptop_domain
+path: __PATH__:/Users/yasser/negmas/app/scenarios/anac2011/Laptop/laptop_domain.yml
+type: DiscreteCartesianOutcomeSpace

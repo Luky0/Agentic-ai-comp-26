@@ -1,0 +1,58 @@
+kalai_outcomes:
+- - '29_29'
+kalai_utils:
+- - 0.1654761904761905
+  - 0.1654761904761905
+ks_outcomes:
+- - '29_29'
+ks_utils:
+- - 0.1654761904761905
+  - 0.1654761904761905
+max_relative_welfare_outcomes:
+- - '100_16'
+- - '16_100'
+max_relative_welfare_utils:
+- - 1.0
+  - 0.0
+- - 0.0
+  - 1.0
+max_welfare_outcomes:
+- - '100_16'
+- - '16_100'
+max_welfare_utils:
+- - 1.0
+  - 0.0
+- - 0.0
+  - 1.0
+modified_kalai_outcomes:
+- - '29_29'
+modified_kalai_utils:
+- - 0.1654761904761905
+  - 0.1654761904761905
+modified_ks_outcomes:
+- - '29_29'
+modified_ks_utils:
+- - 0.1654761904761905
+  - 0.1654761904761905
+nash_outcomes:
+- - '29_29'
+nash_utils:
+- - 0.1654761904761905
+  - 0.1654761904761905
+opposition: 1.0
+pareto_outcomes:
+- - '100_16'
+- - '16_100'
+- - '29_29'
+pareto_utils:
+- - 1.0
+  - 0.0
+- - 0.0
+  - 1.0
+- - 0.1654761904761905
+  - 0.1654761904761905
+utility_ranges:
+- - 0.0
+  - 1.0
+- - 0.0
+  - 1.0
