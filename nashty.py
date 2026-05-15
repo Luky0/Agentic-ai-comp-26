@@ -34,38 +34,9 @@ class NashtyNegotiator(SAOCallNegotiator):
         self.rational_outcomes = tuple(_[1] for _ in sorted(ufun_outcome, reverse=True))
         print(f"N. rational: {len(self.rational_outcomes)}")
 
-        # 2. Initialize frequency counters for the Opponent Model
-        # Format: { issue_index: { value: count } }
-        self.opponent_counts = {}
-
-        # 3. Define the dynamic utility estimator
-        def estimate_opponent_utility(outcome: Outcome) -> float:
-            if not outcome:
-                return 0.0
-            
-            score = 0.0
-            num_issues = len(outcome)
-            
-            for i, val in enumerate(outcome):
-                if i not in self.opponent_counts or not self.opponent_counts[i]:
-                    # If we have no data for this issue yet, assume a neutral 0.5 utility
-                    score += 0.5
-                    continue
-                
-                counts = self.opponent_counts[i]
-                max_count = max(counts.values())
-                
-                if max_count > 0:
-                    # Normalize the frequency between 0 and 1
-                    score += (counts.get(val, 0) / max_count)
-                else:
-                    score += 0.5
-                    
-            # Assume equal weights for all issues for this baseline
-            return score / num_issues if num_issues > 0 else 0.0
-
-        # Bind the estimator to the opponent model
-        self.private_info["opponent_ufun"] = LambdaMultiFun(f=estimate_opponent_utility)
+        # Initialize the opponent model, i.e. make a first guess for the opponent's utility function
+        # Example: constant utility function
+        self.private_info["opponent_ufun"] = LambdaMultiFun(f=lambda x: 0.5)
 
     def __call__(self, state: SAOState, dest: str | None = None) -> SAOResponse:
         """
@@ -124,30 +95,14 @@ class NashtyNegotiator(SAOCallNegotiator):
         # Cannot accept a non-existent offer
         if offer is None:
             return False
-        
-        # 1. Calculate the exact utility of the opponent's offer to us
-        offer_utility = float(self.ufun(offer))
-        
-        # 2. Ask the bidding strategy what we would propose if we rejected this offer
-        next_planned_bid = self.concealing_bidding_strategy(state)
-        
-        # Fallback: if we somehow have no valid next bid, reject.
-        if next_planned_bid is None:
-            return False
-            
-        # 3. Calculate the utility of our planned next bid
-        next_bid_utility = float(self.ufun(next_planned_bid))
-        
-        # 4. ACNext Core Logic: Is their offer better than or equal to our next move?
-        if offer_utility >= next_bid_utility:
-            return True
-            
-        # 5. Safety Net (Optional but recommended): 
-        # If we are in the final 1% of the negotiation time, accept ANYTHING 
-        # that is strictly better than our reservation value to avoid a walk-away (utility = 0).
-        if state.relative_time > 0.99 and offer_utility > self.ufun.reserved_value:
-             return True
 
+        # Example: accept offer if utility is bigger than 80% of the maximum utility
+        if self.ufun(offer) > self.ufun.max() * 0.8 > self.ufun.reserved_value:
+            return True
+
+        # Example: accept offer if utility is bigger than the reserved value
+        if state.relative_time > 0.9 and self.ufun(offer) > self.ufun.reserved_value:
+            return True
         return False
 
     def concealing_bidding_strategy(self, state: SAOState) -> Outcome | None:
@@ -157,46 +112,17 @@ class NashtyNegotiator(SAOCallNegotiator):
 
         Returns: the counter offer as Outcome.
         """
-        if not self.ufun or not self.rational_outcomes:
-            return None
-            
-        # 1. Define concession parameters
-        t = state.relative_time  # Progresses from 0.0 to 1.0
-        max_utility = float(self.ufun.max())
-        
-        # We should never concede below our reservation value
-        min_utility = float(self.ufun.reserved_value)
-        
-        # 'e' defines the shape of our concession curve. 
-        # e < 1: Boulware (holds firm for a long time, then concedes rapidly at the end)
-        # e = 1: Linear (concedes steadily)
-        # e > 1: Conceder (concedes quickly, then holds firm)
-        e = 0.2  # A Boulware strategy is generally safest in competitive environments
-        
-        # 2. Calculate the target utility for the current turn
-        target_utility = max_utility - (max_utility - min_utility) * (t ** e)
-        
-        # 3. Create the "Iso-Curve" pool for concealment
-        # We look for all outcomes within a 5% margin of our target utility
-        tolerance = 0.05 
-        valid_outcomes = [
-            outcome for outcome in self.rational_outcomes
-            if abs(float(self.ufun(outcome)) - target_utility) <= tolerance
-        ]
-        
-        # 4. Randomly select from the valid pool to inject noise into the opponent's model
-        if valid_outcomes:
-            return random.choice(valid_outcomes)
-            
-        # 5. Fallback Mechanism
-        # If no outcomes fall perfectly within our tolerance window (which can happen 
-        # in domains with very few issues/values), just return the absolute closest one.
-        closest_outcome = min(
-            self.rational_outcomes, 
-            key=lambda o: abs(float(self.ufun(o)) - target_utility)
-        )
-        
-        return closest_outcome
+
+        # Your opponent model can be accessed using self.private_info["opponent_ufun"], which is not used yet.
+        #
+        # Example: one of my best outcomes in the beginning of the negotiation
+        if state.relative_time < 0.5:
+            return random.choice(
+                self.rational_outcomes[: min(len(self.rational_outcomes), 10)]
+            )
+
+        # Example: random outcome in rational_outcomes
+        return random.choice(self.rational_outcomes)
 
     def update_opponent_model(self, state: SAOState) -> None:
         """
@@ -207,20 +133,6 @@ class NashtyNegotiator(SAOCallNegotiator):
         """
 
         assert self.ufun and self.opponent_ufun
-
-        offer = state.current_offer
-        
-        # If it is the first round and there is no offer, skip the update
-        if offer is None:
-            return
-
-        # Increment frequency counts for each value in the current offer
-        for i, val in enumerate(offer):
-            if i not in self.opponent_counts:
-                self.opponent_counts[i] = {}
-            
-            # Add 1 to the count of the proposed value
-            self.opponent_counts[i][val] = self.opponent_counts[i].get(val, 0) + 1
 
         # Update your opponent model based on the current offer
 
